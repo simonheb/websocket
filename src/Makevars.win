@@ -12,6 +12,7 @@ CXX_STD=CXX11
 #### Debugging flags ####
 # Uncomment to enable thread assertions
 # PKG_CPPFLAGS += -DDEBUG_THREAD -UNDEBUG
+PKG_CPPFLAGS += -O3
 
 .PHONY: all winlibs
 
